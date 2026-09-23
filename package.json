@@ -1,0 +1,21 @@
+{
+  "name": "muzplayer",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Мультипровайдерный музыкальный плеер: Audius + Deezer + iTunes + Radio-Browser + Яндекс.Музыка + YouTube, шесть тем оформления, настоящий рандом и рекомендации по вкусу",
+  "scripts": {
+    "start": "node server.js",
+    "smoke": "node tools/ui-smoke.mjs",
+    "dev": "node --watch server.js",
+    "layout": "node tools/layout-check.mjs",
+    "lyrics": "node tools/lyrics-live.mjs",
+    "test": "node --test tests/",
+    "rec": "node tools/rec-live.mjs",
+    "themes": "node tools/theme-check.mjs",
+    "shots": "node tools/screenshots.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
